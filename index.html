@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Divina | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header class="profile-header">
+            <div class="profile-meta">
+                <div class="profile-img">
+                    <img src="h3.png" alt="Profile">
+                </div>
+                <div class="profile-info">
+                    <h1>Samuel D. Divina <i class="fas fa-check-circle verified"></i></h1>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Mangaldan, Pangasinan</p>
+                    <p class="subtitle">Aspiring Developer | IT Student</p>
+                </div>
+            </div>
+
+            <button id="theme-btn" title="Toggle Theme">
+                <i class="fas fa-moon"></i>
+            </button>
+        </header>
+
+        <div class="separator"></div>
+
+        <main class="grid-container">
+            <section class="card about">
+                <h3><i class="fas fa-user-astronaut"></i> About Me</h3>
+                <p>I am an IT student at the <strong>University of Pangasinan</strong> focused on building clean, functional web solutions. I specialize in front-end aesthetics and am currently expanding my knowledge in software architecture.</p>
+            </section>
+
+            <section class="card education">
+                <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                <div class="edu-content">
+                    <p><strong>BS in Information Technology</strong></p>
+                    <p class="school">PHINMA - University of Pangasinan</p>
+                    <span class="status-pill">ONGOING</span>
+                </div>
+            </section>
+
+            <section class="card skills">
+                <h3><i class="fas fa-code"></i> Stack</h3>
+                <div class="skill-tags">
+                    <div class="tag"><i class="fab fa-html5" style="color:#e34c26"></i> HTML</div>
+                    <div class="tag"><i class="fab fa-css3-alt" style="color:#264de4"></i> CSS</div>
+                    <div class="tag"><i class="fab fa-js" style="color:#f7df1e"></i> JavaScript</div>
+                </div>
+            </section>
+
+            <section class="card objectives">
+                <h3><i class="fas fa-bullseye"></i> Current Focus</h3>
+                <div class="obj-grid">
+                    <div class="obj-item">
+                        <i class="fas fa-bolt"></i>
+                        <span>Mastering code through daily practice.</span>
+                    </div>
+                    <div class="obj-item">
+                        <i class="fas fa-rocket"></i>
+                        <span>Bridging theory and real-world projects.</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
